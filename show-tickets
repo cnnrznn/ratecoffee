@@ -1,0 +1,12 @@
+#!/bin/bash
+
+DIR=./tickets
+
+for f in $(ls -v $DIR/*)
+do
+        echo $(basename $f)
+        echo "---------------------------"
+        cat $f
+        echo "---------------------------"
+        echo
+done
