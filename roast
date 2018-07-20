@@ -1,0 +1,10 @@
+#!/bin/bash
+
+DATE=`date +%Y-%m-%d`
+DIR=./roasts
+
+FN=$DIR/$DATE
+
+cat $DIR/../template.txt >$FN
+
+$EDITOR $FN
