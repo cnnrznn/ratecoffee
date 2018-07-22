@@ -7,8 +7,9 @@ writes the output to a time-stamped file.
 
 import datetime as dt
 import getpass
+import rootdir
 
-_rootdir = './'
+_rootdir = rootdir._rootdir + '/ratings/'
 
 _type = ''
 _taste_sour = -1

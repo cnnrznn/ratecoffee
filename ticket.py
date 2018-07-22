@@ -2,8 +2,9 @@
 
 import datetime as dt
 import getpass
+import rootdir
 
-_rootdir = './tickets/'
+_rootdir = rootdir._rootdir + '/tickets/'
 
 def get_msg():
     return input('What\'s wrong?: ')

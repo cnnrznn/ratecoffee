@@ -1,10 +1,10 @@
 #!/bin/bash
 
 DATE=`date +%Y-%m-%d`
-DIR=./roasts
+DIR=$(cat rootdir.txt)
 
-FN=$DIR/$DATE
+FN=$DIR/roasts/$DATE
 
-cat $DIR/../template.txt >$FN
+cat $DIR/template.txt >$FN
 
 $EDITOR $FN
