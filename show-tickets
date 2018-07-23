@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR=$(cat rootdir.txt)/tickets
+DIR=$(cat $(dirname $0)/rootdir.txt)/tickets
 
 for f in $(ls -v $DIR/*)
 do

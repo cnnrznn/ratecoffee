@@ -1,1 +1,1 @@
-/home/cnnrznn/data
+/net/data-backedup/coffee
